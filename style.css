@@ -1,0 +1,42 @@
+@charset 'utf-8';
+
+.btn {
+	border: none;
+	background: transparent;
+	font-size: 30px;
+	color: Green;
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.nav {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 250px;
+	height: 100%;
+	background-color: rgb(255 0 125 / .7);
+	/* 色指定の新しい書き方 */
+	transform: translateX(-100%);
+	transition: .3s cubic-bezier(.69,.41,.07,.91);
+}
+
+body.open .nav {
+	transform: translateX(0);
+}
+
+.nav ul {
+	padding: 40px;
+}
+
+.nav ul li {
+	margin-bottom: 2em;
+	list-style: none;
+}
+
+.nav ul li a {
+	color: #fff
+}
