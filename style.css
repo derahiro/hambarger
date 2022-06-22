@@ -18,7 +18,7 @@
 	top: 0;
 	width: 250px;
 	height: 100%;
-	background-color: rgb(255 0 125 / .7);
+	background-color: rgba(69, 9, 233, 0.7);
 	/* 色指定の新しい書き方 */
 	transform: translateX(-100%);
 	transition: .3s cubic-bezier(.69,.41,.07,.91);
